@@ -4,23 +4,23 @@
     "title": "Etwas ist schief gelaufen!"
   },
   "IndexPage": {
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
-    "title": "Unsere Services"
+    "description": "Mein Name ist Harun Dastekin, ich bin 36 Jahre alt und in Berlin-Neukölln geboren und aufgewachsen – genauer gesagt im Schillerkiez.Heute lebe ich mit meiner Frau und meiner kleinen Tochter am anderen Ende von Neukölln, in der Gropiusstadt.Wir wohnen zu dritt in einer Hochhaussiedlung, in einer gemütlichen Zwei-Zimmer-Wohnung, die trotz Hochhaus-Image unser Zuhause geworden ist.2016 habe ich geheiratet, 2021 wurde ich Vater – zwei prägende Meilensteine in meinem Leben.Seit Kurzem bin ich als Testentwickler im Team F bei der DRV Bund dabei und freue mich darauf, euch und die Arbeit hier besser kennenzulernen.",
+    "title": "Harun Dastekin"
   },
   "LocaleLayout": {
-    "title": "Unsere Services"
+    "title": "Harun Dastekin"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
   },
   "Manifest": {
-    "name": "Unsere Services"
+    "name": "Harun Dastekin"
   },
   "Navigation": {
     "home": "Start",
-    "about": "Über uns",
-    "portfolio": "Portfolio"
+    "job": "Karriere",
+    "private": "Privat"
   },
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
@@ -40,12 +40,13 @@
       }
     }
   },
-  "AboutPage": {
-    "description": "<p>Wir sind ein Softwareentwicklungsunternehmen mit Fokus auf <code>Microservices</code>, <code>mobile Apps</code> und <code>IoT-Lösungen</code>.</p> <p>Unser Ziel ist es, innovative und hochwertige Softwarelösungen zu entwickeln.</p>",
-    "title": "Über uns"
+  "JobPage": {
+    "description": "<p>Meine erste Station im öffentlichen Dienst war bei Stromnetz Berlin. Dort war ich in der Leitungsauskunft und im Trassenmanagement tätig.</p><p>Neben meiner beruflichen Tätigkeit habe ich mich immer wieder auch ehrenamtlich engagiert – diese Erfahrungen waren für mich menschlich und beruflich gleichermaßen bereichernd.</p><p>Anschließend wechselte ich zu einem kleinen IT-Unternehmen namens Entraserv, wo ich als IT-Berater/Softwareentwickler tätig war. Mein Schwerpunkt lag auf der Überführung eines ERP-Systems für mittelständische Unternehmen in eine mobile Anwendung.</p><p>Bevor ich zur DRV Bund kam, war ich bei Toll Collect als Softwareentwickler und Testautomatisierer im Einsatz – ein spannender Abschnitt, in dem ich mein technisches Know-how weiter ausbauen und vertiefen konnte.</p>",
+    "title": "Mein Beruflicher Werdegang"
   },
-  "PortfoliosPage": {
-    "description": "<p>Ein Einblick in unser Portfolio – von <code>Webentwicklung</code> bis hin zu <code>mobilen Anwendungen</code> und innovativen Lösungen.</p>",
-    "title": "Projekte"
+  "PrivatePage": {
+    "description": "<p>Wir sind eine kleine Familie zu dritt: Meine Tochter ist fast vier Jahre alt und hält uns ordentlich auf Trab. Meine Frau arbeitet als Planungsingenieurin in einem privaten Ingenieurbüro – wir ergänzen uns also ganz gut: Technik auf beiden Seiten, aber in ganz unterschiedlichen Bereichen.</p><p>Wenn neben Familie und Arbeit Zeit bleibt, interessiere ich mich für Softwareprojekte, Techniktrends – oder nutze die seltenen ruhigen Minuten einfach mal für einen Spaziergang oder ein gutes Gespräch.</p>",
+    "title": "Mein Privatleben"
   }
+
 }

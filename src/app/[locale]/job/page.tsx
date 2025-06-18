@@ -7,24 +7,23 @@ type Props = {
     params: Promise<{ locale: Locale }>;
 };
 
-export default function PortfoliosPage({params}: Props) {
+export default function JobPage({params}: Props) {
     const {locale} = use(params);
 
     // Enable static rendering
     setRequestLocale(locale);
 
-    const t = useTranslations('PortfoliosPage');
+    const t = useTranslations('JobPage');
 
     return (
         <PageLayout title={t('title')}>
             <div className="max-w-[490px]">
                 {t.rich('description', {
                     p: (chunks) => <p className="mt-4">{chunks}</p>,
-                    code: (chunks) => (
-                        <code className="font-mono text-white">{chunks}</code>
-                    )
+
                 })}
             </div>
+
         </PageLayout>
     );
 }

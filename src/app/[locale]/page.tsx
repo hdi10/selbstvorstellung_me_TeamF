@@ -17,13 +17,33 @@ export default function IndexPage({params}: Props) {
 
     return (
         <PageLayout title={t('title')}>
-            <p className="max-w-[590px]">
-                {t.rich('description', {
-                    code: (chunks) => (
-                        <code className="font-mono text-white">{chunks}</code>
-                    )
-                })}
-            </p>
+
+            <section className="py-4 rounded-lg ">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-6">
+                    <div className="md:w-2/3">
+                        <p className="text-left max-w-[590px]">
+                            {t.rich('description')}
+                        </p>
+                    </div>
+
+                    <div className="md:w-1/3 flex justify-center">
+                        <img
+                            src="/images/IMG-20230906-WA0001.jpg"
+                            alt="Portrait von Harun Dastekin"
+                            className="w-48 md:w-64 rounded-lg shadow-lg"
+                        />
+                    </div>
+                </div>
+            </section>
+
+
+            {/*<p className="max-w-[590px]">*/}
+            {/*    {t.rich('description',*/}
+            {/*    )}*/}
+            {/*</p>*/}
+
+
+
         </PageLayout>
     );
 }

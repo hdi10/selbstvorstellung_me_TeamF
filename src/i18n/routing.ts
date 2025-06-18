@@ -5,11 +5,11 @@ export const routing = defineRouting({
     defaultLocale: 'en',
     pathnames: {
         '/': '/',
-        '/about': {
-            de: '/ueberuns'
+        '/job': {
+            de: '/karriere'
         },
-        '/portfolio': {
-            de: '/portfolio'
+        '/private': {
+            de: '/privat'
         }
     }
 });

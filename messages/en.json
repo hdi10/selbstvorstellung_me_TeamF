@@ -4,23 +4,23 @@
     "title": "Something went wrong!"
   },
   "IndexPage": {
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
-    "title": "our services"
+    "description": "My name is Harun Dastekin, I'm 36 years old and I was born and raised in Berlin-Neukölln - in the Schiller neighbourhood to be precise.Today I live with my wife and my little daughter at the other end of Neukölln, in Gropiusstadt. The three of us live in a high-rise estate, in a cosy two-bedroom flat that has become our home despite its high-rise image.I got married in 2016 and became a father in 2021 - two formative milestones in my life.I recently joined the DRV Bund as a test developer in Team F and am looking forward to getting to know you and the work here better.",
+    "title": "Harun Dastekin"
   },
   "LocaleLayout": {
-    "title": "our services"
+    "title": "Harun Dastekin"
   },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
   },
   "Manifest": {
-    "name": "our services"
+    "name": "Harun Dastekin"
   },
   "Navigation": {
     "home": "Home",
-    "about": "About Us",
-    "portfolio": "Portfolio"
+    "job": "Career Path",
+    "private": "Private Life"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
@@ -40,12 +40,12 @@
       }
     }
   },
-  "AboutPage": {
-    "description": "<p>We are a software development company focused on <code>microservices</code>, <code>mobile apps</code>, and <code>IoT solutions</code>.</p> <p>Our mission is to deliver innovative and high-quality software solutions.</p>",
-    "title": "About Us"
+  "JobPage": {
+    "description": "<p>My first job in the public sector was at Stromnetz Berlin. There, I worked in line information and route management.</p><p>In addition to my professional activities, I was always involved in voluntary work - these experiences were equally enriching for me both personally and professionally.</p><p>I then moved to a small IT company called Entraserv, where I worked as an IT consultant/software developer. My focus was on converting an ERP system for medium-sized companies into a mobile application.</p><p>Before joining the DRV Bund, I worked at Toll Collect as a software developer and test automation engineer - an exciting period in which I was able to further expand and deepen my technical expertise.</p>",
+    "title": "My professional career"
   },
-  "PortfoliosPage": {
-    "description": "<p>Explore my portfolio, showcasing <code>web development</code>, <code>mobile apps</code>, and more.</p>",
-    "title": "Projects"
+  "PrivatePage": {
+    "description": "<p>We are a small family of three: my daughter is almost four years old and keeps us on our toes. My wife works as a planning engineer in a private engineering office - so we complement each other quite well: technology on both sides, but in completely different areas.</p><p>When there is time left over from family and work, I am interested in software projects, technology trends - or simply use the rare quiet minutes for a walk or a good chat.</p>",
+    "title": "My private life"
   }
 }
