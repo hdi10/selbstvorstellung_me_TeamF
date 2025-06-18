@@ -1,0 +1,51 @@
+{
+  "Error": {
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+    "title": "Etwas ist schief gelaufen!"
+  },
+  "IndexPage": {
+    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+    "title": "Unsere Services"
+  },
+  "LocaleLayout": {
+    "title": "Unsere Services"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  },
+  "Manifest": {
+    "name": "Unsere Services"
+  },
+  "Navigation": {
+    "home": "Start",
+    "about": "Über uns",
+    "portfolio": "Portfolio"
+  },
+  "NotFoundPage": {
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+    "title": "Seite nicht gefunden"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Erfahre mehr über mich auf meiner Homepage.",
+        "href": "https://dastekin.de",
+        "title": "Homepage"
+      },
+      "source": {
+        "description": "Sieh dir den Quellcode meiner Selbstvorstellung auf GitHub an.",
+        "href": "https://github.com/hdi10/selbstvorstellung_me_TeamF",
+        "title": "Quellcode"
+      }
+    }
+  },
+  "AboutPage": {
+    "description": "<p>Wir sind ein Softwareentwicklungsunternehmen mit Fokus auf <code>Microservices</code>, <code>mobile Apps</code> und <code>IoT-Lösungen</code>.</p> <p>Unser Ziel ist es, innovative und hochwertige Softwarelösungen zu entwickeln.</p>",
+    "title": "Über uns"
+  },
+  "PortfoliosPage": {
+    "description": "<p>Ein Einblick in unser Portfolio – von <code>Webentwicklung</code> bis hin zu <code>mobilen Anwendungen</code> und innovativen Lösungen.</p>",
+    "title": "Projekte"
+  }
+}

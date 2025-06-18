@@ -1,0 +1,51 @@
+{
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "IndexPage": {
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "title": "our services"
+  },
+  "LocaleLayout": {
+    "title": "our services"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Manifest": {
+    "name": "our services"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "portfolio": "Portfolio"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about me on my website.",
+        "href": "https://www.dastekin.de/",
+        "title": "Homepage"
+      },
+      "source": {
+        "description": "Browse the source code of my self-introduction on GitHub.",
+        "href": "https://github.com/hdi10/selbstvorstellung_me_TeamF",
+        "title": "Source code"
+      }
+    }
+  },
+  "AboutPage": {
+    "description": "<p>We are a software development company focused on <code>microservices</code>, <code>mobile apps</code>, and <code>IoT solutions</code>.</p> <p>Our mission is to deliver innovative and high-quality software solutions.</p>",
+    "title": "About Us"
+  },
+  "PortfoliosPage": {
+    "description": "<p>Explore my portfolio, showcasing <code>web development</code>, <code>mobile apps</code>, and more.</p>",
+    "title": "Projects"
+  }
+}
